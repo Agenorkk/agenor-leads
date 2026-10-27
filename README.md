@@ -11,11 +11,15 @@ Aplicativo web responsivo para pesquisar empresas mapeadas no OpenStreetMap e or
 - Layout responsivo e suporte básico a instalação como PWA.
 
 ## Publicar gratuitamente com GitHub Pages
+O repositório já tem um workflow para publicar automaticamente. É necessário ativar o Pages uma vez:
 1. Abra **Settings** deste repositório.
 2. Entre em **Pages**.
-3. Em **Build and deployment**, selecione **Deploy from a branch**.
-4. Escolha a branch **main** e a pasta **/(root)** e clique em **Save**.
-5. Aguarde o GitHub gerar o endereço do site. Normalmente será `https://agenorkk.github.io/agenor-leads/`.
+3. Em **Build and deployment**, no campo **Source**, selecione **GitHub Actions**.
+4. Salve, se o GitHub mostrar essa opção.
+5. Abra a aba **Actions**, selecione **Deploy Agenor Leads to GitHub Pages** e clique em **Re-run jobs** se a execução anterior estiver falha. Um novo commit também dispara a publicação.
+6. Quando a execução ficar verde, o site deverá estar em `https://agenorkk.github.io/agenor-leads/`.
+
+Se o GitHub mostrar uma mensagem de erro, abra a execução em **Actions** e veja o passo que falhou.
 
 ## Instalar no iPhone
 Depois de publicar, abra o endereço no Safari, toque em **Compartilhar** e escolha **Adicionar à Tela de Início**.
