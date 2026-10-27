@@ -1,0 +1,11 @@
+{
+  "name": "Agenor Leads",
+  "short_name": "Agenor Leads",
+  "description": "Prospecção de empresas e organização de oportunidades comerciais.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#101827",
+  "icons": []
+}
